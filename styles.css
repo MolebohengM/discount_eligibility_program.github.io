@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 150px;
+}
+form {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid teal;
+    border-radius: 10px;
+    background-color:ivory;
+    cursor: pointer;
+}
+label, input, button {
+    display: block;
+    margin: 10px 0;
+}
+label {
+    font-weight: bold;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: green;
+}
+#output {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body p{
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+@media(max-width:792px){
+    body {
+        font-family: Arial, sans-serif;
+        text-align: left;
+        margin-top: 65px;
+    }
+    body p{
+        cursor: pointer;
+        font-size: 14px;
+        text-transform:initial;
+        text-align: left;
+        margin-left: -110px;
+        width: 195px;
+        font-weight: bold;
+    }
+    
+    #output {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+    }
+
+    form {
+        display: inline-block;
+        flex-direction: column;
+        border: 2px solid teal;
+        border-radius: 10px;
+        background-color:ivory;
+        cursor: pointer;
+        margin-left: -115px;
+        width: 185px;
+    }
+    button {
+        padding: 6px 24px;
+        background-color: teal;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+    }
+    label, input, button {
+        display: block;
+    }
+    #output {
+        font-size: 14px;
+        font-weight: 700;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: left;
+        margin-left: -115px;
+        width: 195px;
+    }
+}
